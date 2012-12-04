@@ -1,7 +1,7 @@
 carprice = input('Enter the price of the car:')
 print(carprice)
-tax = carprice + 20 / 100
-license = carprice + 20 / 100
+tax = int(carprice) * 20 / 100
+license = int(carprice) * 20 / 100
 dealerprep = 200
 destinationcharge = 200
 print('This is the total price: ', + tax + license + dealerprep + destinationcharge)
