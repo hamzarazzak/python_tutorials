@@ -6,7 +6,7 @@ print("It seems we are quite full this evening.\n")
 
 money = int(input("How many dollars do you slip the Maitre D'? "))
 
-if money:
+if money >0:
     print("Ah, I am reminded of a table.  Right this way.")
 else:
     print("Please, sit.  It may be a while.")

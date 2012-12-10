@@ -1,4 +1,5 @@
 python_tutorials
 ================
 
-practise tutorials
+These are practise tutorials.  
+
