@@ -1,10 +1,10 @@
 import random
 Num = int(input("enter number of coin flips:"))
-coinf = 0
+coin = 0
 h = 0
 t = 0
-while coinf < Num:
-   coinf = coinf + 1
+while coin < Num:
+   coin = coin + 1
    rand = random.randint(0,2)
    if rand == 1:
      h = h + 1

@@ -10,15 +10,18 @@ guess = int(input("Take a guess: "))
 tries = 1
 attempts = 0
 # guessing loop
+
 while guess != the_number:
     if guess > the_number:
         print("Lower...")
     else:
         print("Higher...")
-    guess = int(input("Take a guess: "))
-    tries += 1
-    if guess < 5:
-     print("You have exceeded your limits")
+   
+   guess = int(input("Take a guess: "))
+   tries += 1
+   
+if guess < 5:
+            print("You have exceeded your limits")
 #sprint = 5
 
 # while tries < sprint:

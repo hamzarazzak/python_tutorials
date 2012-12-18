@@ -17,9 +17,9 @@ while (guess != the_number) and tries >0:
         print "Higher..."
             
     guess = int(raw_input("Take a guess: "))
-    tries -= 1
+    tries += 1
 
-if tries == 0:
+if tries == 4:
     print "You lose, you have run out of guesses!"
 else:
     print "You win, the number was", the_number
